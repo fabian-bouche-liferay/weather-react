@@ -26,20 +26,20 @@ This custom fragment leverages the configuration capabilities.
 
 ```html
 <div 
-		 class="d-none"
-		 data-lfr-editable-id="01-city"
-		 id="${fragmentEntryLinkNamespace}-01-city"
-		 data-lfr-editable-type="text"></div>
+    class="d-none"
+    data-lfr-editable-id="01-city"
+    id="${fragmentEntryLinkNamespace}-01-city"
+    data-lfr-editable-type="text"></div>
 <div 
-		 class="d-none"
-		 data-lfr-editable-id="02-country-code" 
-		 id="${fragmentEntryLinkNamespace}-02-country-code" 
-		 data-lfr-editable-type="text"></div>
+    class="d-none"
+    data-lfr-editable-id="02-country-code" 
+    id="${fragmentEntryLinkNamespace}-02-country-code" 
+    data-lfr-editable-type="text"></div>
 <div 
-		 class="d-none"
-		 data-lfr-editable-id="03-city-data" 
-		 id="${fragmentEntryLinkNamespace}-03-city-data" 
-		 data-lfr-editable-type="text"></div>
+    class="d-none"
+    data-lfr-editable-id="03-city-data" 
+    id="${fragmentEntryLinkNamespace}-03-city-data" 
+    data-lfr-editable-type="text"></div>
 
 [#if layoutMode != "edit"]
 	<my-app 
