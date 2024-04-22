@@ -5,10 +5,3 @@ my-app-custom-element-js:
     url: js/main.*.js
     type: globalJS
     name: My App Custom element JS
-my-app-custom-element:
-    friendlyURLMapping: my-app
-    htmlElementName: my-app
-    instanceable: true
-    name: My App Custom element
-    type: customElement
-    urls: []
